@@ -65,7 +65,7 @@ def talker():
             msg.mag_field.magnetic_field.z = float(elements[6])
 
             # Set the message header timestamp
-            msg.Header.stamp.secs = rospy.Time.now()
+            msg.Header.stamp = rospy.Time.now()
             msg.Header.frame_id= "imu1_frame"
             rospy.loginfo("Current system time: {}".format(rospy.Time.now()))
             pub.publish(msg)
