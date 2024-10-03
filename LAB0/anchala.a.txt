@@ -1,3 +1,0 @@
- 
- I have a complete Ubuntu 20.04 LTS installed via Virtual machine
- I am  ready to use Git and GitHub
